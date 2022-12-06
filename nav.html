@@ -1,0 +1,58 @@
+<DOCTYPE html>
+    <html lang="rn-gb">
+    <head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Menu</title>
+        <style type="text/css">
+            /*Body*/
+            body{margin: 0;}
+                /* Nav */
+            .nav{background: #31343C; height: 100px; width: 100%;}
+             /* Name */
+            .name{float:left; margin:20px; padding: 10px; background: #97C5CA;}
+                /* ul*/
+            ul.menu-list{ overflow: hidden; background-color: #31343C; float: right;}
+             /* li*/
+             ul.menu-list li{list-style: none; float: right; margin: 5px 10px;}
+             /* li a */
+             ul.menu-list li a{ text-decoration: none; background: #31343C; color: #97C5CA;}
+             /* li a:hover color*/
+              ul.menu-list li a:hover{color:#ffffff;}
+             /* A class with bottom border to show the underline effect*/
+             ul.menu-list a{text-decoration: none; font-size: 20px; font-famil:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; padding: 14px 16px; display: block; border-bottom: 3px solid;}
+            /*when shrunk below 600px, arange the menu vertical*/
+            @media screen and (max-width: 600px;) {.name  ul.menu-list li, .name  ul.menu-list li {float:none}}
+        </style>
+        </head>
+        <body>
+        <nav id="navigation" class="nav">
+            <h1 class="name">
+                         Abdulkadir Mohammed
+                    </h1>
+        <ul class="menu-list">
+            <li>
+                <a href="">
+                    About
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    Work
+                </a>
+            </li>
+            <li>
+               <a href="">
+                    Contact me
+                </a>
+            </li>
+            <li>
+                 <a href="">
+                    Resume
+                </a>
+            </li>
+        </ul>
+    </nav>   
+        </body>
+    </html>

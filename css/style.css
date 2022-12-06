@@ -1,0 +1,190 @@
+/***************************************
+****************************************
+CSS Edited Sat 26 Nov
+AUTHOR: abdulkadir Mohammed
+---------------------------------------
+
+lICENCE: MIT
+COPYRIGHT: 
+****************************************
+***************************************/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+.nav{background: #31343C; height: 100px; width: 100%;}
+             /* Name */
+            .name{float:left; margin:20px; padding: 10px; background: #97C5CA;}
+                /* ul*/
+            ul.menu-list{ overflow: hidden; background-color: #31343C; float: right;}
+             /* li*/
+             ul.menu-list li{list-style: none; float: right; margin: 5px 10px;}
+             /* li a */
+             ul.menu-list li a{ text-decoration: none; background: #31343C; color: #97C5CA;}
+             /* li a:hover color*/
+              ul.menu-list li a:hover{color:#ffffff;}
+             /* A class with bottom border to show the underline effect*/
+             ul.menu-list a{text-decoration: none; font-size: 20px; font-famil:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; padding: 14px 16px; display: block; border-bottom: 3px solid;}
+            /*when shrunk below 600px, arange the menu vertical*/
+            @media screen and (max-width: 600px;) {.name  ul.menu-list li, .name  ul.menu-list li {float:none}}
+.header {
+    width: 100%;
+  
+}
+
+.hero-banner {
+    background-color: #97C5CA;
+    width: 100%;
+    height: 300px 
+}
+.hero-img {
+    background-image: url(../images/bio-img.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(151,197,202, 0.3);
+    opacity: 0.9;
+    width: 100%;
+    height: 300px;
+    /*place it in a position rleative to location*/
+    position: relative;
+}
+.banner-tittle {
+    margin:20px; 
+    padding: 10px; 
+    background-color: #97C5CA;
+     /*position it relative to the parent's positioning rule & move it to the right and to the bottom*/
+    position:absolute;
+    bottom:0;
+    right:0;
+    
+}
+/*******************
+MAIN CONTAINER SECTION
+*******************/
+
+.divider {
+    margin-bottom: 300px;
+}
+.page-section {
+    padding: 20px;
+    margin: 10px;
+}
+
+.primary-section {
+    border-left: 5px solid #475874;
+    float:right;
+    width: 800px;
+    padding-left: 12px;
+}
+.tittle {
+    font-size: 3rem;
+    width: 200px;
+    float:left;
+    text-align: end;
+    color: #475874;
+}
+p{
+    padding:10px;
+}
+a{
+    text-decoration: none;
+    color: inherit; 
+}
+.item2 {
+    background-image: url(../images/02-portfolio-4.jpg);
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    border: 5px solid #9DCBCD;
+    height: 300px;
+    /*Align to the bottom*/
+    display: flex;
+    align-items: flex-end;
+}
+.item {
+    background-image: url(../images/02-portfolio-1.jpg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    border: 5px solid #9DCBCD;
+    margin: 5px;
+    width: 379px;
+    height: 120px;
+    display: inline-flex;
+    align-items: flex-end;
+}
+.item-img {
+    background-image: url(../images/02-portfolio-2.jpg);
+    background-repeat: no-repeat;
+     background-size: 500px;
+}
+.item1 {
+    background-image: url(../images/02-portfolio-3.jpg);
+    background-repeat: no-repeat;
+    background-size: 500px;
+    display: inline-block;
+    border: 5px solid #9DCBCD;
+    margin: 5px;
+     width: 379px;
+    height: 120px;
+    display: inline-flex;
+    align-items: flex-end;
+    
+}
+.item1-img {
+    background-image: url(../images/02-run-buddy.jpg);
+    background-repeat: no-repeat;
+     background-size: 500px;
+}
+
+.project-tittle {
+    width: 160px;
+    height: 70px;
+    font-size: 20px;
+    bottom:0;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #97C5CA;
+}
+.project-caption {
+    font-size: 12px;
+    padding: -12px;
+}
+
+/*******************
+FOOTER
+*******************/
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+.flex-container {
+    display: flex;
+    list-style-type: none;
+}
+.flex-container li a{
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: #000000;
+    /* Show a line under the text*/
+     padding: 1px 20px; display: block; border-bottom: 3px solid;
+}
+
