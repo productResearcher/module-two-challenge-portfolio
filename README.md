@@ -51,8 +51,16 @@ I checked to make sure it is an error free webpage, this includes UI and Console
 
 #### Test 7: Validating with W3 validator.
 Corrected all errors that came up in W3 validator.
-Made sure it is validated and follows the W3C sttandard.
+Made sure it is validated and follows the W3C sttandard, check the error free site result image below.
 ![W3c Validator Results](images/w3c-validator-results.png "image of W3c test result showing a clean valid site.")
+
+#### Test 8: Check loading speed using chrome dev tools.
+Used network tab to explore opportunitites to .improve site performance:
+![Google dev tools network image](images/google-devtools-network-tab.png "Image of Google Developer Tools Networks tab, showing Module two challenge site performance")
+Using performance tab to check performance:
+
+No futher tests eauired as this is a one page static site.
+
 ## Licence
 
 The is an M.I.T licence
