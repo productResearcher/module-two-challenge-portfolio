@@ -85,10 +85,16 @@ p {
 /*******************
 MAIN CONTAINER SECTION
 *******************/
-/*divide: a div with a margin at the bottom of 300px, to use it for spacing other divs*/
+/*divide: These .divider classes are designed to use for spacing*/
 .divider {
-    margin-bottom: 300px;
+    margin: 100px;
+    padding: 100px;
 }
+.divider-large{
+    padding: 200px;
+    margin: 200px;
+}
+
 /*page-sectio: give it a padding of 20px, and margin of 10px*/
 .page-section {
     padding: 20px;
