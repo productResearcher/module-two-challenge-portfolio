@@ -3,8 +3,8 @@
  What the site looks like:
 ![Module 2 challenge website screen shot.](images/site.png "Site screenshot")
 - - - 
-Link to the Live Site: 
-[Link to the live site]: https://productresearcher.github.io/module-two-challenge-portfolio/ "Module-2-challenge"
+Link to the Live Site: [Link to the live site] 
+[Module-2-challenge]: https://productresearcher.github.io/module-two-challenge-portfolio/ 
 
 ## Description
 
