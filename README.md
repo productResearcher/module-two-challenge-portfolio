@@ -55,11 +55,12 @@ Made sure it is validated and follows the W3C sttandard, check the error free si
 ![W3c Validator Results](images/w3c-validator-results.png "image of W3c test result showing a clean valid site.")
 
 #### Test 8: Check loading speed using chrome dev tools.
-Used network tab to explore opportunitites to .improve site performance:
-![Google dev tools network image](images/google-devtools-network-tab.png "Image of Google Developer Tools Networks tab, showing Module two challenge site performance")
-Using performance tab to check performance:
+Used network tab to explore opportunitites to improve site performance:
+![Google dev tools network image](images/google-devtools-network-tab.png "Image of Google Developer Tools Networks tab, showing Module two challenge site netowkr load time and other elements")
 
-No futher tests eauired as this is a one page static site.
+Using performance tab to check performance:
+![Google develover tools Performance tab image](images/google-devtools-performance-tab.png "Image of Google Developer Tools Performance tab, showing the performance of Module two challenge site")
+No futher tests reqauired as this is a one page static site.
 
 ## Licence
 
