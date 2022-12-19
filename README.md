@@ -50,7 +50,7 @@ I checked the scroll bar carefully and to mak sure it all works as expected.
 I checked to make sure it is an error free webpage, this includes UI and Console inspecttion.
 
 #### Test 7: Validating with W3 validator.
-
+Corrected all errors that came up in W3 validator.
 ## Licence
 
 The is an M.I.T licence
