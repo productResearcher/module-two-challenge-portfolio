@@ -51,6 +51,7 @@ I checked to make sure it is an error free webpage, this includes UI and Console
 
 #### Test 7: Validating with W3 validator.
 Corrected all errors that came up in W3 validator.
+Made sure it is validated and follows the W3C sttandard.
 ## Licence
 
 The is an M.I.T licence
