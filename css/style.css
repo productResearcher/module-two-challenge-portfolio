@@ -59,7 +59,9 @@ p {
     width: 100%;
     height: 300px 
 }
-/*Hero-img: Add a background image, dont repeat it, center the image, give it a background color of opal and a transparency of 0.3*/
+/**
+*Hero-img: Add a background image, dont repeat it, center the image, give it a *background color of opal and a transparency of 0.3
+**/
 .hero-img {
     background-image: url(../images/bio-img.gif);
     background-repeat: no-repeat;
@@ -100,14 +102,18 @@ MAIN CONTAINER SECTION
     padding: 20px;
     margin: 10px;
 }
-/*primary-section: give it a border on the left of 5px, make it solid and give it a color called "independence, float it to the right, give it a widthe of 800px, and a padding on the left of 12px */
+/**
+*primary-section: give it a border on the left of 5px, make it solid and give it a color called "independence, float it to the right, give it a widthe of 800px, and a padding on the left of 12px 
+**/
 .primary-section {
     border-left: 5px solid #475874;
     float:right;
     width: 800px;
     padding-left: 12px;
 }
-/*tittle: give it a font size of 3rem, widthe of 200px, float it to the left, align the text to the end, and add a color independence*/
+/**
+tittle: give it a font size of 3rem, widthe of 200px, float it to the left, align the text to the end, and add a color independence
+**/
 .tittle {
     font-size: 3rem;
     width: 200px;
@@ -124,7 +130,9 @@ a{
     text-decoration: none;
     color: inherit; 
 }
-/*item2: use the background image 02-portfolio-4.jpg, dont repeate the photo,make the background image fill the div, give it a border of 5px, make it solid and a color of powder blue, make the height 300px*/
+/**
+item2: use the background image 02-portfolio-4.jpg, dont repeate the photo,make the background image fill the div, give it a border of 5px, make it solid and a color of powder blue, make the height 300px
+**/
 .item2 {
     background-image: url(../images/02-portfolio-4.jpg);
     background-repeat: no-repeat;
@@ -135,11 +143,12 @@ a{
     display: flex;
     align-items: flex-end;
 }
-/**/
+/**
+item: use the background image 02-portfolio-1.jpg, dont repeate the photo,make the display anline flex so that i can align it to the end and make it stay side by side with the others, give it a border of 5px, make it solid and a color of powder *blue, make the height 120px and give it a margin of 5px
+**/
 .item {
     background-image: url(../images/02-portfolio-1.jpg);
     background-repeat: no-repeat;
-    display: inline-block;
     border: 5px solid #9DCBCD;
     margin: 5px;
     width: 379px;
@@ -147,16 +156,23 @@ a{
     display: inline-flex;
     align-items: flex-end;
 }
+/**
+*use the background image 02-portfolio-2.jpg, and dont repeate the image, make the size 500px.
+**/
 .item-img {
     background-image: url(../images/02-portfolio-2.jpg);
     background-repeat: no-repeat;
      background-size: 500px;
 }
+/**
+*add A background image 02-portfolio-03.
+Dont repeat the image, give it a background size of 500px, igve it a border of 5px *solid with a powder blue color, add a margin of 5px, give it a width of 379 and height of 120px to meet the size requirements of the rest.make it an inline flex to be able to move it to the end.
+
+**/
 .item1 {
     background-image: url(../images/02-portfolio-3.jpg);
     background-repeat: no-repeat;
     background-size: 500px;
-    display: inline-block;
     border: 5px solid #9DCBCD;
     margin: 5px;
      width: 379px;
@@ -165,6 +181,7 @@ a{
     align-items: flex-end;
     
 }
+/*Add background image 02-run-buddy.jpg, dont repeat it and give it a size of 500px*/
 .item1-img {
     background-image: url(../images/02-run-buddy.jpg);
     background-repeat: no-repeat;

@@ -1,25 +1,33 @@
-# My Portfolio
+# Module 2 Challenge : Portfolio
+ 
+ What the site looks like:
+![Module 2 challenge website screen shot.](images/site.png "Site screenshot")
+
+Link to the live site: [https://productresearcher.github.io/module-two-challenge-portfolio/][portfolio-site]
 
 ## Description
 
-Hi, this is my portfolio, I  am a UI UX and a front end developer.
+At the end of my module two, I was challenged to create a portfolio style HTML5 and CSS3 website. 
 
 
 ## Table of Contents
 
-* About me
+* About the project
 * Results
-* license
 * Tests
+* license
 
 
-#### About me
-I have worked as a UI UX designer for more than five years and looking to move into a UI UX Developer.
+#### About the project
+The project is designed to test whatt I learnt dring the module two, the challenge was put in a way that I had to use most of the things I learned from the beggining of the course until now.
 
-#### Why I built this portfolio
-I built this portfolio to show my Development skills, and some of my work.
+#### Results
+I was able to meet all criteria for the challenge, develop tthe site and deploy it on github.
 
-Hope you like it
+## Tests
+
+Testt 1: Userbility
+Test 2: plugins
 
 ## Licence
 
@@ -28,7 +36,3 @@ The is an M.I.T licence
 ---
 
 
-## Tests
-
-Testt 1: Userbility
-Test 2: plugins
